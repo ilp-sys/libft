@@ -1,10 +1,10 @@
-# LIBFT
+# LIBFT [![jiwahn's 42 Libft Score](https://badge42.vercel.app/api/v2/cl5mpp96a00400amd35y6oqy6/project/2645037)](https://github.com/JaeSeoKim/badge42)
 
     Personal library of 42 C School 
 ---
 /* this project is to support all the other porjects in 42 inner circles */<br>
 
-[![jiwahn's 42 Libft Score](https://badge42.vercel.app/api/v2/cl5mpp96a00400amd35y6oqy6/project/2645037)](https://github.com/JaeSeoKim/badge42)
+
 
 ## 0. Based Concepts
  - Managing `Heap memory allocation`
