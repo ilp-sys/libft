@@ -2,7 +2,7 @@
 
     Personal library of 42 C School 
 ---
-/* this project is to support all the other porjects in 42 inner circles */<br>
+/* this project is to support all the other projects in 42 inner circles */<br>
 
 
 
