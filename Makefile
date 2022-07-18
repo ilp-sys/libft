@@ -6,7 +6,7 @@
 #    By: jiwahn <jiwahn@student.42seoul.kr>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/07/07 13:34:35 by jiwahn            #+#    #+#              #
-#    Updated: 2022/07/18 18:57:49 by jiwahn           ###   ########.fr        #
+#    Updated: 2022/07/18 20:39:01 by jiwahn           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -33,7 +33,7 @@ SRCS_NAME_P1 = ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isprint.c ft_strlen.c \
 		  ft_calloc.c ft_strdup.c
 
 SRCS_NAME_P2 = ft_substr.c ft_strjoin.c ft_strtrim.c ft_split.c ft_itoa.c \
-		  ft_strmapi.c ft_striteri.c ft_putchar_fd.c, ft_putstr_fd.c \
+		  ft_strmapi.c ft_striteri.c ft_putchar_fd.c ft_putstr_fd.c \
 		  ft_putendl_fd.c ft_putnbr_fd.c
 
 SRCS_NAME_OTHERS = ft_strcpy.c ft_strncat.c ft_strncpy.c ft_strnlen.c
@@ -42,7 +42,7 @@ SRCS_NAME_BONUS = ft_lstnew.c ft_lstadd_front.c ft_lstsize.c ft_lstlast.c \
 		 ft_lstadd_back.c ft_lstdelone.c ft_lstclear.c ft_lstiter.c ft_lstmap.c
 
 SRC = $(addprefix $(SRC_DIR_P1), $(SRC_NAME_P1)) $(addprefix $(SRC_DIR_P2), $(SRC_NAME_P2)) $(addprefix $(SRC_DIR_OTHERS), $(SRC_NAME_OTHERS)) 
-SRC_BONUS = $(addprefix $(SRC_DIR_BONUS), $(SRC_NAME_BONUS))
+SRC_BONUS = $(addprefix $(SRC_DIR_BONUS), $(SRCS_NAME_BONUS))
 
 OBJ_DIR = ./obj/
 OBJ_NAME = $(SRCS_NAME_P1:.c=.o) $(SRCS_NAME_P2:.c=.o) $(SRCS_NAME_OTHERS:.c=.o)
