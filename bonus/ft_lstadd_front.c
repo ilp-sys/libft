@@ -5,11 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: jiwahn <jiwahn@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/07/09 11:52:31 by jiwahn            #+#    #+#             */
-/*   Updated: 2022/07/09 11:59:22 by jiwahn           ###   ########.fr       */
+/*   Created: 2022/07/18 14:13:13 by jiwahn            #+#    #+#             */
+/*   Updated: 2022/07/18 14:13:49 by jiwahn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
+
+#include "../libft.h"
 
 void	ft_lstadd_front(t_list **lst, t_list *new)
 {

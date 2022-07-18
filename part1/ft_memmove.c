@@ -9,7 +9,7 @@
 /*   Updated: 2022/07/12 22:15:46 by jiwahn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
+#include "../libft.h"
 
 void	*ft_memmove(void *dst, const void *src, size_t len)
 {

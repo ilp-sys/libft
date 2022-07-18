@@ -5,20 +5,18 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: jiwahn <jiwahn@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/07/08 22:42:28 by jiwahn            #+#    #+#             */
-/*   Updated: 2022/07/09 12:52:08 by jiwahn           ###   ########.fr       */
+/*   Created: 2022/07/18 14:11:15 by jiwahn            #+#    #+#             */
+/*   Updated: 2022/07/18 15:42:20 by jiwahn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 void	ft_lstadd_back(t_list **lst, t_list *new)
 {
 	t_list	*res;
 
 	res = *lst;
-	if (lst == NULL || new == NULL)
-		return ;
 	if (*lst == NULL && new != NULL)
 	{
 		*lst = new;

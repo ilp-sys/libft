@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: jiwahn <jiwahn@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/07/09 12:02:58 by jiwahn            #+#    #+#             */
-/*   Updated: 2022/07/09 12:06:27 by jiwahn           ###   ########.fr       */
+/*   Created: 2022/07/18 14:15:48 by jiwahn            #+#    #+#             */
+/*   Updated: 2022/07/18 14:16:35 by jiwahn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 void	ft_lstdelone(t_list *lst, void (*del)(void *))
 {

@@ -9,7 +9,7 @@
 /*   Updated: 2022/07/11 12:21:45 by jiwahn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
+#include "../libft.h"
 
 static void	print_reverse(unsigned char nbr[10], int index, int fd)
 {

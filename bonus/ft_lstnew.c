@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: jiwahn <jiwahn@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/07/08 22:12:26 by jiwahn            #+#    #+#             */
-/*   Updated: 2022/07/11 15:24:05 by jiwahn           ###   ########.fr       */
+/*   Created: 2022/07/18 14:22:18 by jiwahn            #+#    #+#             */
+/*   Updated: 2022/07/18 14:23:46 by jiwahn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 t_list	*ft_lstnew(void *content)
 {

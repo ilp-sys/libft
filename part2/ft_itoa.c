@@ -9,7 +9,7 @@
 /*   Updated: 2022/07/12 22:15:11 by jiwahn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
+#include "../libft.h"
 
 static int	get_digit_byte(long long n)
 {
