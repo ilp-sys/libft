@@ -6,13 +6,13 @@
 /*   By: jiwahn <jiwahn@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/18 09:17:58 by jiwahn            #+#    #+#             */
-/*   Updated: 2022/07/18 09:27:08 by jiwahn           ###   ########.fr       */
+/*   Updated: 2022/07/19 15:08:06 by jiwahn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft.h"
 
-char	*strncat(char *s1, const char *s2, size_t n)
+char	*ft_strncat(char *s1, const char *s2, size_t n)
 {
 	unsigned int	len1;
 	unsigned int	len2;
