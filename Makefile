@@ -6,7 +6,7 @@
 #    By: jiwahn <jiwahn@student.42seoul.kr>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/07/07 13:34:35 by jiwahn            #+#    #+#              #
-#    Updated: 2022/07/19 11:35:17 by jiwahn           ###   ########.fr        #
+#    Updated: 2022/07/19 18:44:39 by jiwahn           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -60,10 +60,10 @@ all: $(NAME)
 
 clean:
 	$(RM) $(RMFLAGS) $(OBJS) $(OBJS_B)
+	rmdir obj
 
 fclean: clean
 	$(RM) $(RMFLAGS) $(NAME)
-	rmdir obj
 
 re: fclean all
 
