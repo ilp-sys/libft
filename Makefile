@@ -60,7 +60,7 @@ all: $(NAME)
 
 clean:
 	$(RM) $(RMFLAGS) $(OBJS) $(OBJS_B)
-	rmdir obj
+	@rm -rf obj
 
 fclean: clean
 	$(RM) $(RMFLAGS) $(NAME)
